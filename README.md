@@ -2,8 +2,11 @@
 
 A machine learning project that classifies mushrooms as **edible** or **poisonous** from categorical morphological features. Built in **KNIME**, it compares Decision Tree, Naive Bayes and Random Forest classifiers, tunes the decision threshold to eliminate false negatives, and uses SHAP to explain the model's predictions.
 
-**Authors:** Ilaria Cesaratto, Chiara Mezzanzanica, Andrea Porro
-**University of Milano-Bicocca – Data Science**
+### Contributions
+
+- **Ilaria Cesaratto:** designed and built the KNIME workflow: data preprocessing, training and evaluation of the models, and decision threshold tuning to eliminate false negatives.
+- **Chiara Mezzanzanica:** wrote the project report.
+- **Andrea Porro:** explainability (XAI) analysis with SHAP.
 
 ## Highlights
 
@@ -31,4 +34,3 @@ A machine learning project that classifies mushrooms as **edible** or **poisonou
 ## Disclaimer
 
 Developed for academic purposes on 1981 North American data. Do **not** use this model to decide whether a wild mushroom is safe to eat.
-
